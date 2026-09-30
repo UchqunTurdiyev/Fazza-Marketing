@@ -6,8 +6,8 @@ export const brand = {
   product: "Strategik sessiya",
   phone: "+998 77 151 00 51",
   phoneHref: "tel:+998771510051",
-  telegram: "https://t.me/fazzamanagementschool", // TODO: aniq Telegram manzilini kiriting
-  telegramLabel: "@FAZZA Management School",
+  telegram: "https://t.me/FAZZA_Management_School",
+  telegramLabel: "@FAZZA_Management_School",
   email: "j.shodiev@fazza.uz",
   address: "Toshkent shahri",
 };
