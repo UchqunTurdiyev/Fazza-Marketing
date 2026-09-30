@@ -95,7 +95,7 @@ export function Clients() {
     <section className="bg-mist py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <SectionHeading eyebrow={clients.eyebrow} title={clients.title} lead={clients.note} />
-        <Stagger className="mb-6 grid grid-cols-2 gap-4 md:grid-cols-4">
+        <Stagger className="mb-6 grid grid-cols-2 gap-4 md:grid-cols-5">
           {clients.logos.map((l) => (
             <StaggerItem key={l.alt}>
               <div className="card-hover flex h-28 items-center justify-center rounded-2xl border border-line bg-white p-6">
@@ -146,7 +146,7 @@ export function Audience() {
               ))}
             </ul>
             <div className="mt-8">
-              <CtaButton source="audience" variant="navy">Bu biz haqimizda — bog‘laning</CtaButton>
+              <CtaButton source="audience" variant="navy">Bepul diagnostikaga yozilish</CtaButton>
             </div>
           </Reveal>
           <Reveal delay={0.1} className="relative overflow-hidden rounded-3xl bg-navy p-8 text-white md:p-10">

@@ -77,7 +77,7 @@ export function MobileBar() {
               onClick={() => open({ source: "mobile-bar" })}
               className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-gold font-bold text-navy-950"
             >
-              <Send className="size-4" /> Bepul konsultatsiya
+              <Send className="size-4" /> Bepul diagnostikaga yozilish
             </button>
           </div>
         </motion.div>

@@ -83,7 +83,7 @@ export function Hero() {
             transition={{ duration: 0.7, ease, delay: 0.7 }}
             className="mt-9 flex flex-col gap-3 sm:flex-row"
           >
-            <CtaButton source="hero">Bepul tanishuv qo‘ng‘irog‘i</CtaButton>
+            <CtaButton source="hero">Bepul diagnostikaga yozilish</CtaButton>
             <a
               href="#dastur"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-white/20 px-7 py-4 font-semibold text-white transition hover:bg-white/10"

@@ -55,7 +55,7 @@ export function Header() {
           </a>
           <div className="hidden sm:block">
             <CtaButton source="header" size="md">
-              Ariza qoldirish
+              Bepul diagnostikaga yozilish
             </CtaButton>
           </div>
           <button

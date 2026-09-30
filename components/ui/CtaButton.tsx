@@ -5,7 +5,7 @@ import { useLeadModal } from "@/components/lead/LeadModal";
 import type { PackageId } from "@/lib/content";
 
 export function CtaButton({
-  children = "Bepul tanishuv qo‘ng‘irog‘i",
+  children = "Bepul diagnostikaga yozilish",
   source,
   pkg,
   variant = "gold",

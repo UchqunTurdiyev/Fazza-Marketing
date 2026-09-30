@@ -46,7 +46,7 @@ export function Pricing() {
                   ))}
                 </ul>
                 <CtaButton source={`pricing-${p.id}`} pkg={p.id} variant={p.featured ? "gold" : "white"} className="w-full">
-                  {p.name} paketini tanlash
+                  Bepul diagnostikaga yozilish
                 </CtaButton>
               </div>
             </Reveal>
@@ -133,7 +133,7 @@ export function Faq() {
         </div>
         <Reveal className="mt-10 text-center">
           <p className="mb-5 text-muted">{faq.more}</p>
-          <CtaButton source="faq" variant="navy">Savolimni berish</CtaButton>
+          <CtaButton source="faq" variant="navy">Bepul diagnostikaga yozilish</CtaButton>
         </Reveal>
       </div>
     </section>
@@ -172,7 +172,7 @@ export function FinalCta() {
             <div className="absolute -top-px left-10 right-10 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
             <h3 className="font-serif text-2xl font-semibold sm:text-3xl">Bepul tanishuv qo‘ng‘irog‘i</h3>
             <p className="mb-7 mt-2 text-white/65">30 daqiqada kompaniyangiz holatini tahlil qilamiz va sessiya formatini taklif qilamiz.</p>
-            <LeadForm source="final-form" dark submitLabel="Ariza yuborish" />
+            <LeadForm source="final-form" dark submitLabel="Bepul diagnostikaga yozilish" />
           </div>
         </Reveal>
       </div>

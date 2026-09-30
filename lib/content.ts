@@ -151,6 +151,7 @@ export const clients = {
     { src: "/logos/cambridge.png", alt: "Cambridge Learning Center", w: 498, h: 153 },
     { src: "/logos/robbit.png", alt: "Robbit", w: 648, h: 648 },
     { src: "/logos/najot-talim.png", alt: "Najot Ta’lim", w: 216, h: 177 },
+    { src: "/logos/bulut.jpg", alt: "Bulut", w: 250, h: 180 },
   ],
   photos: ["/images/case-1.webp", "/images/hero-team.webp", "/images/case-2.webp"],
   note: "Ishlab chiqarish, ta’lim, xizmat ko‘rsatish va IT sohalaridagi kompaniyalar bilan ishladik — dastur har bir biznes modeliga moslashtiriladi.",

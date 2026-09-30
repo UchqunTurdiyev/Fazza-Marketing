@@ -17,7 +17,7 @@ type Props = {
   onSuccess?: () => void;
 };
 
-export function LeadForm({ source, pkg, dark, submitLabel = "Tanishuv qo‘ng‘irog‘iga yozilish", onSuccess }: Props) {
+export function LeadForm({ source, pkg, dark, submitLabel = "Bepul diagnostikaga yozilish", onSuccess }: Props) {
   const router = useRouter();
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("+998");

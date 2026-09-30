@@ -51,7 +51,7 @@ export function Pains() {
           <p className="max-w-2xl font-serif text-xl leading-snug md:text-2xl">
             Kamida 2 ta holat tanish bo‘lsa — jamoangiz bilan strategik sessiya o‘tkazish vaqti keldi.
           </p>
-          <CtaButton source="pains" className="shrink-0">Holatimni muhokama qilish</CtaButton>
+          <CtaButton source="pains" className="shrink-0">Bepul diagnostikaga yozilish</CtaButton>
         </Reveal>
       </div>
     </section>

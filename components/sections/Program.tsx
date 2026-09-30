@@ -43,7 +43,7 @@ export function Program() {
             <Clock className="size-5 shrink-0 text-gold" />
             <span className="font-medium">{program.format}</span>
           </div>
-          <CtaButton source="program" size="md">Dasturni kompaniyamga moslash</CtaButton>
+          <CtaButton source="program" size="md">Bepul diagnostikaga yozilish</CtaButton>
         </Reveal>
       </div>
     </section>
@@ -114,7 +114,7 @@ export function Results() {
         <Reveal delay={0.1} className="relative">
           <div className="relative overflow-hidden rounded-[2rem] shadow-2xl">
             <Image
-              src="/images/result-team.webp"
+              src="/images/sessiya.jpg"
               alt="Strategik sessiya yakunidagi jamoa"
               width={900}
               height={675}
